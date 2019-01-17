@@ -63,7 +63,7 @@
 		584D9E7921E79A7E004F2E83 = {
 			isa = PBXGroup;
 			children = (
-				584D9E8421E79A7E004F2E83 /* SFMLOpenGL */,
+				584D9E8421E79A7E004F2E83 /* glfwOpenGL */,
 				584D9E8321E79A7E004F2E83 /* Products */,
 				584D9E8C21E79B14004F2E83 /* Frameworks */,
 			);
@@ -77,14 +77,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		584D9E8421E79A7E004F2E83 /* SFMLOpenGL */ = {
+		584D9E8421E79A7E004F2E83 /* glfwOpenGL */ = {
 			isa = PBXGroup;
 			children = (
 				587A426121EF5AA300443F51 /* resources */,
 				584D9E8521E79A7E004F2E83 /* main.cpp */,
 				589B782921EF577C002E96A8 /* Shader.h */,
 			);
-			path = SFMLOpenGL;
+			path = glfwOpenGL;
 			sourceTree = "<group>";
 		};
 		584D9E8C21E79B14004F2E83 /* Frameworks */ = {
@@ -133,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 584D9E7D21E79A7E004F2E83 /* Build configuration list for PBXProject "SFMLOpenGL" */;
+			buildConfigurationList = 584D9E7D21E79A7E004F2E83 /* Build configuration list for PBXProject "glfwOpenGL" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -296,7 +296,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		584D9E7D21E79A7E004F2E83 /* Build configuration list for PBXProject "SFMLOpenGL" */ = {
+		584D9E7D21E79A7E004F2E83 /* Build configuration list for PBXProject "glfwOpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				584D9E8721E79A7E004F2E83 /* Debug */,
