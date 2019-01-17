@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		589B781721EF3D2D002E96A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589B781621EF3D2D002E96A8 /* main.cpp */; };
-		589B781F21EF3D66002E96A8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589B781E21EF3D66002E96A8 /* OpenGL.framework */; };
-		589B782121EF3D7B002E96A8 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 589B782021EF3D7B002E96A8 /* libGLEW.2.1.0.dylib */; };
-		589B782321EF3E5A002E96A8 /* libsfml-system.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 589B782221EF3E5A002E96A8 /* libsfml-system.2.4.2.dylib */; };
-		589B782521EF3E6F002E96A8 /* libsfml-window.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 589B782421EF3E6F002E96A8 /* libsfml-window.2.4.2.dylib */; };
+		584D9E8621E79A7E004F2E83 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 584D9E8521E79A7E004F2E83 /* main.cpp */; };
+		584D9E8E21E79B14004F2E83 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584D9E8D21E79B14004F2E83 /* OpenGL.framework */; };
+		584D9E9021E79B8B004F2E83 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 584D9E8F21E79B8B004F2E83 /* libglfw.3.2.dylib */; };
+		587A426321EF5B0600443F51 /* resources in CopyFiles */ = {isa = PBXBuildFile; fileRef = 587A426121EF5AA300443F51 /* resources */; };
+		589B77EF21EB9CEF002E96A8 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 589B77EE21EB9CEF002E96A8 /* libGLEW.2.1.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		589B781121EF3D2D002E96A8 /* CopyFiles */ = {
+		584D9E8021E79A7E004F2E83 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,64 +24,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		587A426221EF5AFA00443F51 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				587A426321EF5B0600443F51 /* resources in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		589B781321EF3D2D002E96A8 /* SFMLOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SFMLOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
-		589B781621EF3D2D002E96A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		589B781E21EF3D66002E96A8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		589B782021EF3D7B002E96A8 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
-		589B782221EF3E5A002E96A8 /* libsfml-system.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.4.2.dylib"; path = "../../../../../usr/local/Cellar/sfml/2.4.2_1/lib/libsfml-system.2.4.2.dylib"; sourceTree = "<group>"; };
-		589B782421EF3E6F002E96A8 /* libsfml-window.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.4.2.dylib"; path = "../../../../../usr/local/Cellar/sfml/2.4.2_1/lib/libsfml-window.2.4.2.dylib"; sourceTree = "<group>"; };
+		584D9E8221E79A7E004F2E83 /* glfwOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = glfwOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
+		584D9E8521E79A7E004F2E83 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		584D9E8D21E79B14004F2E83 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		584D9E8F21E79B8B004F2E83 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
+		587A426121EF5AA300443F51 /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
+		589B77EE21EB9CEF002E96A8 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		589B782921EF577C002E96A8 /* Shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		589B781021EF3D2D002E96A8 /* Frameworks */ = {
+		584D9E7F21E79A7E004F2E83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				589B782321EF3E5A002E96A8 /* libsfml-system.2.4.2.dylib in Frameworks */,
-				589B782521EF3E6F002E96A8 /* libsfml-window.2.4.2.dylib in Frameworks */,
-				589B782121EF3D7B002E96A8 /* libGLEW.2.1.0.dylib in Frameworks */,
-				589B781F21EF3D66002E96A8 /* OpenGL.framework in Frameworks */,
+				589B77EF21EB9CEF002E96A8 /* libGLEW.2.1.0.dylib in Frameworks */,
+				584D9E9021E79B8B004F2E83 /* libglfw.3.2.dylib in Frameworks */,
+				584D9E8E21E79B14004F2E83 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		589B780A21EF3D2D002E96A8 = {
+		584D9E7921E79A7E004F2E83 = {
 			isa = PBXGroup;
 			children = (
-				589B781521EF3D2D002E96A8 /* SFMLOpenGL */,
-				589B781421EF3D2D002E96A8 /* Products */,
-				589B781D21EF3D66002E96A8 /* Frameworks */,
+				584D9E8421E79A7E004F2E83 /* SFMLOpenGL */,
+				584D9E8321E79A7E004F2E83 /* Products */,
+				584D9E8C21E79B14004F2E83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		589B781421EF3D2D002E96A8 /* Products */ = {
+		584D9E8321E79A7E004F2E83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				589B781321EF3D2D002E96A8 /* SFMLOpenGL */,
+				584D9E8221E79A7E004F2E83 /* glfwOpenGL */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		589B781521EF3D2D002E96A8 /* SFMLOpenGL */ = {
+		584D9E8421E79A7E004F2E83 /* SFMLOpenGL */ = {
 			isa = PBXGroup;
 			children = (
-				589B781621EF3D2D002E96A8 /* main.cpp */,
+				587A426121EF5AA300443F51 /* resources */,
+				584D9E8521E79A7E004F2E83 /* main.cpp */,
+				589B782921EF577C002E96A8 /* Shader.h */,
 			);
 			path = SFMLOpenGL;
 			sourceTree = "<group>";
 		};
-		589B781D21EF3D66002E96A8 /* Frameworks */ = {
+		584D9E8C21E79B14004F2E83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				589B782421EF3E6F002E96A8 /* libsfml-window.2.4.2.dylib */,
-				589B782221EF3E5A002E96A8 /* libsfml-system.2.4.2.dylib */,
-				589B782021EF3D7B002E96A8 /* libGLEW.2.1.0.dylib */,
-				589B781E21EF3D66002E96A8 /* OpenGL.framework */,
+				589B77EE21EB9CEF002E96A8 /* libGLEW.2.1.0.dylib */,
+				584D9E8F21E79B8B004F2E83 /* libglfw.3.2.dylib */,
+				584D9E8D21E79B14004F2E83 /* OpenGL.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,68 +100,69 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		589B781221EF3D2D002E96A8 /* SFMLOpenGL */ = {
+		584D9E8121E79A7E004F2E83 /* glfwOpenGL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 589B781A21EF3D2D002E96A8 /* Build configuration list for PBXNativeTarget "SFMLOpenGL" */;
+			buildConfigurationList = 584D9E8921E79A7E004F2E83 /* Build configuration list for PBXNativeTarget "glfwOpenGL" */;
 			buildPhases = (
-				589B780F21EF3D2D002E96A8 /* Sources */,
-				589B781021EF3D2D002E96A8 /* Frameworks */,
-				589B781121EF3D2D002E96A8 /* CopyFiles */,
+				584D9E7E21E79A7E004F2E83 /* Sources */,
+				584D9E7F21E79A7E004F2E83 /* Frameworks */,
+				584D9E8021E79A7E004F2E83 /* CopyFiles */,
+				587A426221EF5AFA00443F51 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SFMLOpenGL;
-			productName = SFMLOpenGL;
-			productReference = 589B781321EF3D2D002E96A8 /* SFMLOpenGL */;
+			name = glfwOpenGL;
+			productName = glfwOpenGL;
+			productReference = 584D9E8221E79A7E004F2E83 /* glfwOpenGL */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		589B780B21EF3D2D002E96A8 /* Project object */ = {
+		584D9E7A21E79A7E004F2E83 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Eloi;
 				TargetAttributes = {
-					589B781221EF3D2D002E96A8 = {
+					584D9E8121E79A7E004F2E83 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 589B780E21EF3D2D002E96A8 /* Build configuration list for PBXProject "SFMLOpenGL" */;
+			buildConfigurationList = 584D9E7D21E79A7E004F2E83 /* Build configuration list for PBXProject "SFMLOpenGL" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 589B780A21EF3D2D002E96A8;
-			productRefGroup = 589B781421EF3D2D002E96A8 /* Products */;
+			mainGroup = 584D9E7921E79A7E004F2E83;
+			productRefGroup = 584D9E8321E79A7E004F2E83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				589B781221EF3D2D002E96A8 /* SFMLOpenGL */,
+				584D9E8121E79A7E004F2E83 /* glfwOpenGL */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		589B780F21EF3D2D002E96A8 /* Sources */ = {
+		584D9E7E21E79A7E004F2E83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				589B781721EF3D2D002E96A8 /* main.cpp in Sources */,
+				584D9E8621E79A7E004F2E83 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		589B781821EF3D2D002E96A8 /* Debug */ = {
+		584D9E8721E79A7E004F2E83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +217,7 @@
 			};
 			name = Debug;
 		};
-		589B781921EF3D2D002E96A8 /* Release */ = {
+		584D9E8821E79A7E004F2E83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,29 +265,29 @@
 			};
 			name = Release;
 		};
-		589B781B21EF3D2D002E96A8 /* Debug */ = {
+		584D9E8A21E79A7E004F2E83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					/usr/local/Cellar/glfw/3.2.1/lib,
 					/usr/local/Cellar/glew/2.1.0/lib,
-					/usr/local/Cellar/sfml/2.4.2_1/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		589B781C21EF3D2D002E96A8 /* Release */ = {
+		584D9E8B21E79A7E004F2E83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					/usr/local/Cellar/glfw/3.2.1/lib,
 					/usr/local/Cellar/glew/2.1.0/lib,
-					/usr/local/Cellar/sfml/2.4.2_1/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -284,25 +296,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		589B780E21EF3D2D002E96A8 /* Build configuration list for PBXProject "SFMLOpenGL" */ = {
+		584D9E7D21E79A7E004F2E83 /* Build configuration list for PBXProject "SFMLOpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				589B781821EF3D2D002E96A8 /* Debug */,
-				589B781921EF3D2D002E96A8 /* Release */,
+				584D9E8721E79A7E004F2E83 /* Debug */,
+				584D9E8821E79A7E004F2E83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		589B781A21EF3D2D002E96A8 /* Build configuration list for PBXNativeTarget "SFMLOpenGL" */ = {
+		584D9E8921E79A7E004F2E83 /* Build configuration list for PBXNativeTarget "glfwOpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				589B781B21EF3D2D002E96A8 /* Debug */,
-				589B781C21EF3D2D002E96A8 /* Release */,
+				584D9E8A21E79A7E004F2E83 /* Debug */,
+				584D9E8B21E79A7E004F2E83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 589B780B21EF3D2D002E96A8 /* Project object */;
+	rootObject = 584D9E7A21E79A7E004F2E83 /* Project object */;
 }
